@@ -8,7 +8,7 @@ This project demonstrates how raw environmental data can be transformed into act
 
 ## 📊 Dashboard Preview
 
-![Dashboard](powerbi/screenshots/dashboard.png)
+[Dashboard](powerbi/screenshots/dashboard.png)
 
 ---
 
