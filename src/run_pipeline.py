@@ -6,9 +6,8 @@ from pathlib import Path
 from dotenv import load_dotenv
 
 
-# -----------------------------
+
 # BASE CONFIG
-# -----------------------------
 
 BASE_DIR = Path(__file__).resolve().parents[1]
 os.chdir(BASE_DIR)
@@ -30,9 +29,9 @@ DATABASE_URL = os.getenv("DATABASE_URL")
 if not DATABASE_URL:
     raise ValueError("DATABASE_URL environment variable is not set")
 
-# -----------------------------
-# SQL TRANSFORM SCRIPTS (ORDER MATTERS)
-# -----------------------------
+# --------------------------------------------
+# SQL TRANSFORM SCRIPTS and ORDERS MATTERS 
+# --------------------------------------------
 
 SQL_FILES = [
     "insert_dim_datetime.sql",
@@ -52,7 +51,7 @@ def log(message):
     with open(LOG_FILE, "a") as f:
         f.write(line + "\n")
 
-# -----------------------------
+
 # RUN COMMAND WRAPPER
 # -----------------------------
 
@@ -81,7 +80,7 @@ def run_command(command, step_name):
         log(e.stderr.strip())
         sys.exit(1)
 
-# -----------------------------
+
 # PIPELINE EXECUTION
 # -----------------------------
 
