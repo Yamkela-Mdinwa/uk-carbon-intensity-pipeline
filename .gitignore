@@ -1,0 +1,52 @@
+# ======================
+# Python
+# ======================
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Virtual environments
+venv/
+venv_b/
+env/
+ENV/
+.venv/
+
+# ======================
+# Environment variables
+# ======================
+.env
+
+# ======================
+# Data (DO NOT COMMIT RAW DATA)
+# ======================
+data/raw/
+data/processed/
+
+# ======================
+# Logs
+# ======================
+logs/
+*.log
+
+# ======================
+# OS / System files
+# ======================
+.DS_Store
+Thumbs.db
+
+# ======================
+# IDE / Editor
+# ======================
+.vscode/
+.ipynb_checkpoints/
+
+# ======================
+# Build / Packaging
+# ======================
+build/
+dist/
+*.egg-info/
+*.egg
+data/
