@@ -120,9 +120,9 @@ These insights support:
 
 The analysis is structured around three key dimensions:
 
-- **Level** → Current carbon intensity
-- **Stability** → Volatility and fluctuations
-- **Reliability** → Forecast accuracy and error
+- Level → Current carbon intensity
+- Stability → Volatility and fluctuations
+- Reliability → Forecast accuracy and error
 
 This ensures the dashboard supports both monitoring and decision-making.
 
