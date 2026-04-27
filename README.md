@@ -1,31 +1,24 @@
 # UK Carbon Intensity Data Pipeline & Analytics Dashboard
 
-An end-to-end data pipeline and analytics system designed to monitor UK carbon intensity, evaluate forecasting performance, and support carbon-aware decision making.
+This is An end-to-end data pipeline and analytics system which is designed to monitor UK carbon intensity, evaluate forecasting performance, and support carbon-aware decision making.
 
 This project demonstrates how raw environmental data can be transformed into actionable insights through data engineering, modelling, and visualisation.
 
----
 
-## 📊 Dashboard Preview
 
-[Dashboard](powerbi/screenshots/dashboard.png)
+ 🌍 Why This Project Matters
 
----
+Energy systems are becoming increasingly complex and carbon-aware and understanding when carbon intensity is high or low enables the following:
 
-## 🌍 Why This Project Matters
-
-Energy systems are becoming increasingly complex and carbon-aware.
-
-Understanding when carbon intensity is high or low enables:
 - Smarter energy usage
 - Reduced environmental impact
 - Better operational planning
 
-This project bridges the gap between raw carbon data and real-world decision making.
+Therefore this project bridges the gap between raw carbon data and real-world decision making.
 
 ---
 
-## 🛠️ What I Built
+ 🛠️ What I Built!!
 
 - Automated data pipeline using the UK Carbon Intensity API
 - Data ingestion and storage in PostgreSQL (Neon)
@@ -35,7 +28,7 @@ This project bridges the gap between raw carbon data and real-world decision mak
 
 ---
 
-## ⚙️ Architecture
+ ⚙️ Architecture
 
 
 ```text
@@ -43,7 +36,7 @@ API → Python (Extract) → PostgreSQL (Neon) → SQL Modelling → Power BI Da
 
 
 
-## 📁 Project Structure
+ 📁 Project Structure
 
 uk-carbon-intensity-pipeline/
 ├── src/
@@ -69,7 +62,7 @@ uk-carbon-intensity-pipeline/
 
 ---
 
-## 🧠 Data Model
+ 🧠 Data Model
 
 The project uses a star schema optimised for time-series analysis:
 
@@ -85,7 +78,7 @@ This structure enables efficient aggregation and KPI computation.
 
 ---
 
-## 📊 Key Metrics
+ 📊 Key Metrics
 
 The dashboard includes:
 
@@ -98,7 +91,7 @@ The dashboard includes:
 
 ---
 
-## 🔍 Key Insights
+ 🔍 Key Insights
 
 - Carbon intensity consistently peaks during evening hours, indicating higher reliance on carbon-intensive energy sources
 - Forecast accuracy remains high (~93%), making the model suitable for planning decisions
@@ -107,7 +100,7 @@ The dashboard includes:
 
 ---
 
-## 🎯 Business Questions Answered
+ 🎯 Business Questions Answered
 
 This project helps answer:
 
@@ -123,7 +116,7 @@ These insights support:
 
 ---
 
-## 🧩 Analytical Approach
+🧩 Analytical Approach
 
 The analysis is structured around three key dimensions:
 
@@ -135,7 +128,7 @@ This ensures the dashboard supports both monitoring and decision-making.
 
 ---
 
-## 🚀 Future Improvements
+🚀 Future Improvements
 
 - Integrate generation mix data (wind, solar, gas) to explain drivers of carbon intensity
 - Add regional-level analysis across the UK
@@ -145,7 +138,7 @@ This ensures the dashboard supports both monitoring and decision-making.
 
 ---
 
-## 🛠️ Technologies Used
+ 🛠️ Technologies Used
 
 - Python (data extraction and pipeline orchestration)
 - PostgreSQL (Neon cloud database)
@@ -155,7 +148,7 @@ This ensures the dashboard supports both monitoring and decision-making.
 
 ---
 
-## ▶️ How to Run
+ ▶️ How to Run
 
 ```bash
 # Activate environment
